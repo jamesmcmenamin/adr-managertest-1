@@ -1,0 +1,30 @@
+# Ignore Visual Studio files
+.vs/
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore JetBrains Rider/IDEA files
+.idea/
+*.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+.idea/**/vcs.xml
+.idea/**/.name
+.idea/**/modules.xml
+.idea/.rider/
+
+# Ignore build results
+bin/
+obj/
+out/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
